@@ -79,16 +79,16 @@ main {
 .card {
   background-color: #fff;
   border-bottom: var(--spacing-1) solid var(--gray-2);
-  padding: var(--spacing-1) var(--spacing-4);
-  margin-left: -32px;
-  margin-right: -32px;
+  padding: var(--spacing-1) var(--spacing-3);
+  margin-left: calc(-1 * var(--spacing-3));
+  margin-right: calc(-1 * var(--spacing-3));
 }
 
 .indented-heading {
   background-color: var(--secondary-color);
   max-width: max-content;
-  padding: var(--spacing-2) var(--spacing-3);
-  margin-left: -40px;
+  padding: var(--spacing-2) var(--spacing-4);
+  margin-left: calc(-1 * var(--spacing-4));
   border-bottom: var(--spacing-1) solid var(--secondary-color-dark);
   font-size: var(--font-size-2);
 }
